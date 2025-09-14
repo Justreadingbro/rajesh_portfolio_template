@@ -62,14 +62,10 @@ export function AboutSection() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <a
-                href="/resume.docx"
-                download
-                className="inline-flex items-center justify-center text-lg px-8 py-6 rounded-md bg-primary text-white hover:bg-primary/90"
-              >
+              <Button size="lg" className="text-lg px-8 py-6">
                 <Download className="mr-2 h-5 w-5" />
                 Download Resume
-              </a>
+              </Button>
             </div>
           </div>
         </div>
